@@ -4,7 +4,7 @@ const TikTokScraper = require('tiktok-scraper');
 
 /* GET home page. */
 router.get('/', function(req, res, next) {
-  res.send('Analizador de tiktoks CANTEC');
+  res.send('Analizador de tiktoks CANTEC S.A');
 });
 
 router.post('/video',function(req,res,next){
